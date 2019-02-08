@@ -41,7 +41,9 @@ module Reinforced.Typings.Tests.SpecificCases {
 		D = 1, 
 		E = 2
 	}
-}";
+}
+
+export = Reinforced.Typings.Tests.SpecificCases";
             AssertConfiguration(s =>
             {
                 s.Global(a => a.DontWriteWarningComment());

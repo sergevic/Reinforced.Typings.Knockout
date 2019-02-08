@@ -35,6 +35,8 @@ namespace Reinforced.Typings.Visitors.TypeScript
                 UnTab();
                 AppendTabs();
                 WriteLine("}");
+                WriteLine("");
+                WriteLine(string.Format("export = {0}", node.Name));
             }
         }
     }
